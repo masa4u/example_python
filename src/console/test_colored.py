@@ -1,5 +1,8 @@
 # import colored import fg, bg, attr
-from colored.fore import fore
-from colored.back import back
+from colorama import Fore, Back
 
-print ('%s Hello World !!! %s' % (fore.BLUE + back.WHITE, fore.RED))
+print 'normal'
+print ('%s Hello World !!! %s' % (Fore.BLUE + Back.BLACK, Fore.RED))
+print ('%s Hello World !!! %s' % (Fore.BLUE + Back.WHITE, Fore.RED))
+print Fore.RED + 'dddfd'
+print 'dddfd' + Fore.BLUE
