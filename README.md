@@ -1,5 +1,6 @@
-# example_python
- * pymotw.com/ 기타 사이트의 예제 모음
+Including Examples
+==================
+ * examples from PyMOTW(http://www.doughellmann.com/PyMOTW/)
  * thirdparty library
  
 Thirdparty Library
