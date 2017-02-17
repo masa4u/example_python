@@ -45,9 +45,9 @@ if __name__ == '__main__':
 
         for rlt in rlts:
             if rlt.successful():
-                print rlt.get()
+                print (rlt.get())
             else:
-                print 'fail'
+                print('fail')
         print ('pool_size=%d async=%f rlt=%f' % (pool_size, async_time))
 
     start = timeit.default_timer()
